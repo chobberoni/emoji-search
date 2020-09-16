@@ -29,6 +29,12 @@ Large.args = {
   label: 'Button',
 };
 
+export const Medium = Template.bind({});
+Large.args = {
+  size: 'medium',
+  label: 'Button',
+};
+
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
